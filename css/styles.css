@@ -1,0 +1,17 @@
+body{
+    background-color:#f9f8eb;
+}
+hr{
+    width: 60px;
+    border: none;
+    border-top: 6px dotted #76b39d;
+    opacity: 0.4;
+}
+img{
+    width: 160px;
+    border-radius: 50%;
+}
+
+h1, h3{
+    color: #05004e;
+}
