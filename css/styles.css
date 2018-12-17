@@ -1,17 +1,118 @@
 body{
-    background-color:#f9f8eb;
-}
-hr{
-    width: 60px;
-    border: none;
-    border-top: 6px dotted #76b39d;
-    opacity: 0.4;
-}
-img{
-    width: 160px;
-    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
-h1, h3{
-    color: #05004e;
+h1 {
+    /*font-size: 562.5%; based on 16px -to get - 90px/16px = 562.5%*/
+    /*font-size: 5.625em; /*1em = 16px = 100% font size-- 90px/16pz = 5.625em  */
+    color: #66bfbf;
+    font-size: 5.625em; /*rem - mean "root em" or the size we set in here */
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
 }
+h2{
+    color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    /* 40px/16px=2.5rem */
+    font-size: 2.5rem;
+    /* line-height: 2; */
+}
+h3{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+}
+hr {
+    width: 85px;
+    border: none;
+    border-bottom: 10px dotted #eee;
+}
+.top-container {
+    background: #e4f9f5;
+    position: relative;
+    padding-top: 100px
+}
+.middle{
+    width: 200px;
+    height: 200px;
+    background: orange;
+   
+}
+.profile-img{
+    width: 180px;
+    border-radius: 50%;
+}
+.bottom{
+    width: 200px;
+    height: 200px;
+    background: teal;
+    
+}
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud{
+    display: block;
+    position: absolute;  
+    right: 300px;
+    top: 50px  
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 200px;
+    bottom: 200px ;
+}
+
+
+.skill-row {
+    width: 50%;  
+    margin: 100px auto;  
+    text-align: left;
+}
+
+
+.skill-row p{
+    line-height: 2;
+    display: inline;
+}
+
+.html{
+    float:left;
+    width: 90px;
+    margin-left: 30px;
+}
+
+.open_book{
+    float: right;
+    width: 90px;
+    margin-right: 30px;
+}
+
+.btn{
+    background: teal;
+    padding: 10px;
+   color: white;
+   border-radius: 5px;
+}
+
+.bottom-container{
+    margin-top: 60px;
+    background: #BF6C66;
+    height: 100px;
+}
+
+.footer-link{
+    margin-top: 20px;
+    text-decoration: none;
+    display:inline-block;
+}
+
+.copyright{
+    font-style: italic;
+}
+
